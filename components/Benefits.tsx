@@ -1,0 +1,15 @@
+import { siteConfig } from "@/config/site";
+
+export default function Benefits() {
+  return (
+    <section className="py-16 max-w-3xl mx-auto">
+      <ul className="space-y-3">
+        {siteConfig.benefits.map((item, index) => (
+          <li key={index} className="text-lg">
+            ✔ {item}
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
