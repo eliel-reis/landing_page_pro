@@ -1,7 +1,7 @@
 export const siteConfig = {
   businessName: "Sites Profissionais",
 
-  headline: "Site profissional que traz clientes em até 48h",
+  headline: "Site profissional pronto em até 48h para receber clientes",
 
   subheadline:
     "Ideal para pequenos negócios que precisam receber mais contatos sem depender só do Instagram.",
